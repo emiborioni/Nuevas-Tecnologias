@@ -1,0 +1,33 @@
+﻿    • Planificacion y prevencion de lesiones, fatigas, desgaste, etc.
+
+. En Inglaterra obligan a los clubes a tener dentro de su estructura matemáticos de datos.
+
+Análisis de patrones y tendencias en parámetros básicos: desempeño atlético (velocidad, aceleración), la posición de los jugadores y sus movimientos, la tenencia del balón, etc. Y, de esta manera, detectar los parámetros críticos de mejora en base a referencias de juego. 
+    • Modelos predictivos de juego, remate y gol: la empresa Oulala Games tiene un modelo matemático que, empleando datos de la empresa Opta (hablaremos de ella más adelante), permite a un club disponer de un sistema predictivo de los factores que llevan a obtener el mejor resultado de un jugador. Juegan con un total de 70 variables para obtener 275 posibles acciones a realizar con las que ganar o perder puntos. 
+    • Modelo de propensión a la lesión o fatiga: si un equipo es capaz de detectar los factores que mejor predicen una lesión, podrá evitarlos a futuro con un modelo que lo detecte con carácter preventivo. A más de un equipo, que a estas alturas ha rotado poco, le podría venir muy bien. 
+    • Análisis individual vs. global del equipo: no olvidemos que como juego de equipo que es, lo importante es el análisis global del equipo, en la estrategia global. Es lo que se ha bautizado como el “eventing”, secuencias que miden los pases buenos, las pérdidas de balón, remates, goles, faltas, tarjetas, tenencia y similares, que permiten ver la contribución de cada jugador al equipo y viceversa. Esto, con grafos, ya se ha hecho en varias ocasiones para las selecciones y enfrentamientos clave (como la final del Mundia entre España y Holanda). De esta manera, la adecuación de jugadores a equipos y viceversa -como le encanta al Cholo Simeone-, resulta más fácil. 
+    • Simulación de jugadas y enfrentamientos: cruzando todo este conjunto de variables y datos de los que estamos reiteradamente hablando, un equipo puede disponer de un simulador de posibles jugadas y enfrentamientos, con los que afrontar de la mejor manera posible cada partido. La personalización del juego y el equipo en función del rival. 
+    • Valoración de jugadores en mercado: más allá de ejercicios “amateurs” como los que he podido hacer yo en el caso de Aymeric Laporte, aquí hay modelos realmente sofisticados. Como decíamos antes, el Arsenal dispone de una herramienta propia para ello. Y hay bastantes rumores que el acierto de Monchi en el Sevilla, se debe a lo mismo. 
+    • Factores Críticos de Éxito: una de mis historias preferidas en cuanto al análisis de factores de triunfo de un equipo es el de la selección Alemania de fútbol durante el Mundial. La actual campeona del mundo, implantó un sistema global de Big Data que le permitió tomar decisiones sobre qué factores eran los que la hacían producir mejores resultados. Se dieron cuenta que, por ejemplo, reducir el tiempo de posesión a poco más de un segundo (de los 3,5 segundos en los que estaba). 
+    • Detección de talento: en 2011, la película Moneyball narró la historia de Billy Beane, director técnico de un modesto equipo de beisbol que en 2001 empezó a utilizar la estadística para detectar jugadores poco valorados en mercado, pero con grandes probabilidades de hacer grandes cosas. Desde entonces, el fútbol se ha llenado de herramientas y bases de datos estadísticas como Opta Sports -que ya trabajar con el Sevilla, Valencia o FC Barcelona, entre otros- o Transfermarkt, que ponen a disposición de los clubes datos para hacer eso mismo. Supongo que ya lo estarán empleando, pero dada su sensibilidad y la ventaja competitiva que ganan, entiendo no lo divulgarán mucho. 
+
+
+Vardy 1,4 a 40 millones 
+kante
+mahrez
+
+sevilla 2006, 2007,ramos  2014, 2015, 2016 emery PSG ahora
+
+alemania 2,3,3,1
+ 
+
+el entrenador alemán pudo analizar, por ejemplo, estadísticas acerca del tiempo promedio de posesión de la pelota por parte del equipo. Y lograron reducirla de 3,4 segundos a cerca de 1,1.
+
+“Diez jugadores con tres pelotas entrenando durante 10 minutos pueden entregar 7.000.000 de datos en tiempo real.
+En un partido de 90 minutos se pueden obtener hasta 60 millones de datos.”
+El proyecto demandará una inversión de 110 millones de euros. 
+Alemania tuvo menos posesión de pelota, Brasil atacó más y los dos tuvieron una cantidad similar de remates al arco, pero la velocidad de los pases fue clave.
+
+El tamaño de los datos determina el valor y entendimiento potencial, y si los puede considerar como auténticos macrodatos.
+
+Los macrodatos usan textos imágenes, audio y vídeo. También completan pedazos pedidos a través de la fusión de datos.

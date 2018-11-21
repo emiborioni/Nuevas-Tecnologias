@@ -1,0 +1,78 @@
+﻿    • Planificacion y prevencion de lesiones, fatigas, desgaste, etc.
+
+. En Inglaterra obligan a los clubes a tener dentro de su estructura matemáticos de datos.
+
+Análisis de patrones y tendencias en parámetros básicos:desempeño atlético (velocidad, aceleración), la posición de los jugadores y sus movimientos, la tenencia del balón, etc. Y, de esta manera, detectar los parámetros críticos de mejora en base a referencias de juego. 
+    • Modelospredictivos de juego, remate y gol: la empresa Oulala Games tiene un modelo matemático que, empleando datos de la empresa Opta (hablaremos de ella más adelante),permite a un club disponer de un sistema predictivo de los factores que llevan a obtener el mejor resultado de un jugador. Juegan con un total de 70 variables para obtener 275 posibles acciones a realizar con las que ganar o perder puntos. 
+    • Modelo de propensión a la lesión o fatiga:si un equipo es capaz de detectar los factores que mejor predicen una lesión, podrá evitarlos a futuro con un modelo que lo detecte con carácter preventivo. A más de un equipo, que a estas alturas ha rotado poco, le podría venir muy bien. 
+    • Análisis individual vs. global del equipo: no olvidemos que como juego de equipo que es, lo importante es el análisis global del equipo, en la estrategia global. Es lo que se ha bautizado como el “eventing”, secuencias que miden los pases buenos, las pérdidas de balón, remates, goles, faltas, tarjetas, tenencia y similares, que permiten ver la contribución de cada jugador al equipo y viceversa. Esto, con grafos, ya se ha hecho en varias ocasiones para las selecciones y enfrentamientos clave (como la final del Mundia entre España y Holanda). De esta manera, la adecuación de jugadores a equipos y viceversa -como le encanta al Cholo Simeone-, resulta más fácil. 
+    • Simulación de jugadas y enfrentamientos: cruzando todo este conjunto de variables y datos de los que estamos reiteradamente hablando, un equipo puede disponer de un simulador de posibles jugadas y enfrentamientos, con los que afrontar de la mejor manera posible cada partido. La personalización del juego y el equipo en función del rival. 
+    • Valoración de jugadores en mercado: más allá de ejercicios “amateurs” como los que he podido hacer yo en el caso de Aymeric Laporte, aquí hay modelos realmente sofisticados. Como decíamos antes, el Arsenal dispone de una herramienta propia para ello. Y hay bastantes rumores que el acierto de Monchi en el Sevilla, se debe a lo mismo. 
+    • Factores Críticos de Éxito: una de mis historias preferidas en cuanto al análisis de factores de triunfo de un equipo es el de la selección Alemania de fútbol durante el Mundial. La actual campeona del mundo, implantó un sistema global de Big Data que le permitió tomar decisiones sobre qué factores eran los que la hacían producir mejores resultados. Se dieron cuenta que, por ejemplo, reducir el tiempo de posesión a poco más de un segundo (de los 3,5 segundos en los que estaba). 
+    • Detección de talento: en 2011, la película Moneyball narró la historia de Billy Beane, director técnico de un modesto equipo de beisbol que en 2001 empezó a utilizar la estadística para detectar jugadores poco valorados en mercado, pero con grandes probabilidades de hacer grandes cosas. Desde entonces, el fútbol se ha llenado de herramientas y bases de datos estadísticas como Opta Sports -que ya trabajar con el Sevilla, Valencia o FC Barcelona, entre otros- o Transfermarkt, que ponen a disposición de los clubes datos para hacer eso mismo. Supongo que ya lo estarán empleando, pero dada su sensibilidad y la ventaja competitiva que ganan, entiendo no lo divulgarán mucho. 
+
+
+Vardy 1,4 a 40 millones 
+kante
+mahrez
+
+sevilla 2006, 2007,ramos  2014, 2015, 2016 emery PSG ahora
+
+alemania 2,3,3,1
+ 
+
+el entrenador alemán pudo analizar, por ejemplo, estadísticas acerca del tiempo promedio de posesión de la pelota por parte del equipo. Y lograron reducirla de 3,4 segundos a cerca de 1,1.
+
+“Diez jugadores con tres pelotas entrenando durante 10 minutos pueden entregar 7.000.000 de datos en tiempo real.
+En un partido de 90 minutos se pueden obtener hasta 60 millones de datos.”
+El proyecto demandará una inversión de 110 millones de euros. 
+Alemania tuvo menos posesión de pelota, Brasil atacó más y los dos tuvieron una cantidad similar de remates al arco, pero la velocidad de los pases fue clave.
+
+El tamaño de los datos determina el valor y entendimiento potencial, y si los puede considerar como auténticos macrodatos.
+
+Los macrodatos usan textos imágenes, audio y vídeo. También completan pedazos pedidos a través de la fusión de datos.
+
+
+
+Hadoop es un sistema de código abierto creado por Google que se utiliza para almacenar, procesar y analizar grandes volúmenes de datos. Esta solución, que posteriormente se denominará Hadoop, se basa en un gran número de pequeños ordenadores, cada uno de los cuales se encarga de procesar una porción de información. La grandiosidad del sistema es que, a pesar de que cada uno de ellos funciona de forma independiente y autónoma, todos actúan en conjunto, como si fueran un solo ordenador de dimensiones increíbles.
+
+Caracteristicas Basicas de Hadoop
+HDFS: Consiste en un sistema de archivo distribuido. que permite que el fichero de datos no se guarde en una única máquina sino que sea capaz de distribuir la información a distintos dispositivos.
+Organiza la informacion en muchos cluster en los cuales se encuentra replicada la informacion por si alguno se cae siga existiendo la informacion
+
+
+
+MAPREDUCE: Se trata de un  framework de trabajo que hace posible aislar al programador de todas las tareas propias de la programación en paralelo. Es decir, permite que un programa que ha sido escrito en los lenguajes de programación más comunes, se pueda ejecutar en un cluster de Hadoop.
+
+Es una palabra compuesta deriva de map que significa la accion de si queremos buscar un parametro,palabra,valor,columna,estadistica se encarga de agarrar toda la informacion y dividirla en la cantidad de pc (clousters) que tenemos disponibles y que cada uno se encarga de analizar esa informacion agilizando los tiempos y reduciendolo proporcionalmente a la cantidad de clousters que tenemos 
+Reduce es la forma en la cual el programa agarra los datos previamente analizados por los clousters y los une a todos para mostrar el resultado esperado por el usuario, app o programador. 
+
+Este ejemplo de MapReduce es un proceso para contar las apariciones de cada palabra en un conjunto de documentos:
+ map(String name, String document):
+  // clave: nombre del documento
+  // valor: contenido del documento
+  for each word w in document:
+    EmitIntermediate(w, 1);
+La función map() en este caso divide un documento en palabras (es decir lo tokeniza) mediante el empleo de un simple analizador léxico, y emite una serie de tuplas de la foma (clave, valor) donde la clave es la palabra y el valor es "1". Es decir, por ejemplo, del documento "La casa de la pradera" la función map retornaría: ("la", "1"), ("casa", "1"), ("de", "1"), ("la", "1"), ("pradera", "1").
+ 
+ reduce(String word, Iterator partialCounts):
+  // word: una palabra
+  // partialCounts: una [[Iterador (patrón de diseño)|lista parcial]] para realizar cuentas agregadas
+  int result = 0;
+  for each v in partialCounts:
+    result += ParseInt(v);
+  Emit(result);
+Aquí, cada documento es dividido en palabras, y cada palabra se cuenta con valor inicial "1" por la función Map, utilizando la palabra como el resultado clave. El framework reúne todos los pares con la misma clave y se alimenta a la misma llamada Reduce, por lo tanto, esta función sólo necesita la suma de todos los valores de su entrada para encontrar el total de las apariciones de esa palabra. En el ejemplo anterior ("la", "1") aparece dos veces debido a que la clave "la" tiene dos ocurrencias, el resto de claves sólo aparece una vez.
+Datos estructurados: datos que tienen bien definidos su longitud y su formato, como las fechas, los números o las cadenas de caracteres. Se almacenan en tablas. Un ejemplo son las bases de datos relacionales y los almacenes de datos.
+    Datos no estructurados: datos en el formato tal y como fueron recolectados, carecen de un formato específico. No se pueden almacenar dentro de una tabla ya que no se puede desgranar su información a tipos básicos de datos. Algunos ejemplos son los PDF, documentos multimedia, correos electrónicos o documentos de texto.
+    Datos semiestructurados: datos que no se limitan a campos determinados, pero que contiene marcadores para separar los diferentes elementos. Es una información poco regular como para ser gestionada de una forma estándar. Estos datos poseen sus propios metadatos semiestructurados20​ que describen los objetos y las relaciones entre ellos, y pueden acabar siendo aceptados por convención. Como ejemplos tenemos los archivos tipo hojas de cálculo, HTML, XML o JSON.
+
+La información se recoge fundamentalmente a través de dos vías: sensores que los jugadores se colocan en pecho y piernas, y sistemas pasivos de cámaras de vídeo ubicadas alrededor del campo que graban todo el partido. 
+
+Esto lo logran con tecnología propia SAP HANA (incluye recolección de data, almacenamiento en la nube y análisis veloz) y el entrenador puede ver mientras sus jugadores están en el terreno de juego, datos como la velocidad a la que corren en el campo, los metros que han recorrido o la posición exacta de su línea de defensa.
+
+Se estima que en solo 10 minutos de juego se generan cerca de siete millones de datos. En los 90 minutos de un partido se pueden generar, analizar y comparar más de 60 millones de cifras. Tal cantidad sería casi imposible de digerir por un ser humano. Lo que hace el programa es adaptarla a un sistema de visualización que sea entendible por el entrenador. En la tableta ve la cantidad de pases realizados por un jugador, su efectividad (y mucho más) e incluso puede saber los datos que se generan en el equipo rival.
+
+Aseguran que con este sistema los entrenadores pueden sacar mayor rendimiento a sus jugadores ya que optimiza la forma en que los gestiona. También sirve para analizar a posteriori el partido y compararlo con cientos de juegos pasados.
+
+En la pantalla no sólo se ven cifras, sino que también se ofrece una imagen del campo en 3D, una perspectiva distinta a la que se puede apreciar desde la cámara de la televisión o al ras del suelo. Con este tipo de reproducción se puede controlar mejor los movimientos y la ubicación de los deportistas.
